@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/Artboard-1-copy.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 15px;
+}
+
+h1, h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+}
+
+a {
+    color: #250240;
+}
+
+.nav-a {
+    color: #fff;
+}
+
+.header-h1 {
+    font-size: 30px;
+}
+
+
+
+
+      /**                               /
+     /         TABLET STYLE            /
+    /                               **/
+
+    @media screen and (min-width: 605px) {
+    }
+
+
+      /**                               /
+     /         DESKTOP STYLE           /
+    /                               **/
+
+    @media screen and (min-width:920px) {
+}
