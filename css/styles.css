@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url("../images/Artboard-1-copy.jpg");
+    background-image: url("../images/full-bg.jpg");
     background-repeat: repeat-y;
     background-size: cover;
 }
@@ -26,7 +26,13 @@ a {
     font-size: 30px;
 }
 
+.p-img {
+    width: 100%;
+}
 
+.container-2 {
+    margin: 0 36px;
+}
 
 
       /**                               /
