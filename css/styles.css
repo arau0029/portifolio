@@ -16,10 +16,16 @@ h1, h2 {
 
 a {
     color: #250240;
+    text-decoration: underline;
 }
 
 .nav-a {
     color: #fff;
+    text-decoration: none;
+}
+
+.current {
+    text-decoration: underline;
 }
 
 .header-h1 {
@@ -34,6 +40,9 @@ a {
     margin: 0 36px;
 }
 
+.copyright-txt {
+    color: #fff;
+}
 
       /**                               /
      /         TABLET STYLE            /
