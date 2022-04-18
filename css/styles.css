@@ -19,6 +19,32 @@ a {
     text-decoration: underline;
 }
 
+nav {    
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    padding: 0 22px;
+    font-size: 13px;
+}
+
+nav ul .works {
+    padding-right: 0;
+}
+
+.nav-container {
+    padding: 15px 0;
+}
+
 .nav-a {
     color: #fff;
     text-decoration: none;
@@ -26,6 +52,11 @@ a {
 
 .current {
     text-decoration: underline;
+}
+
+.logo a {
+
+    font-size: 15px;
 }
 
 .header-h1 {
