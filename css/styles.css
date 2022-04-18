@@ -86,15 +86,55 @@ p {
     padding: 165px 0 170px 0;
 }
 
+/** END HEADER STYLES **/
+
+
+.white-overlay {
+    background-color: rgba(255,255,255,0.65);;
+}
+
+
+
+/** END MAIN STYLES **/
+
+footer {
+    background-color: #250240;
+    padding: 9px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media {
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media svg {
+    padding-right: 25px;
+}
+
 .copyright-txt {
     color: #fff;
 }
+
+/** END FOOTER STYLES **/
+
+
 
       /**                               /
      /         TABLET STYLE            /
     /                               **/
 
-    @media screen and (min-width: 605px) {
+@media screen and (min-width: 605px) {
+    /** END HEADER STYLES **/
+    /** END MAIN STYLES **/
+    /** END FOOTER STYLES **/
     }
 
 
@@ -102,5 +142,8 @@ p {
      /         DESKTOP STYLE           /
     /                               **/
 
-    @media screen and (min-width:920px) {
+@media screen and (min-width:920px) {
+    /** END HEADER STYLES **/
+    /** END MAIN STYLES **/
+    /** END FOOTER STYLES **/
 }
