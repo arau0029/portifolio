@@ -72,9 +72,7 @@ p {
     font-size: 13px;
 }
 
-.p-img {
-    width: 100%;
-}
+
 
 .container-2 {
     margin: 0 36px;
@@ -88,12 +86,55 @@ p {
 
 /** END HEADER STYLES **/
 
-
 .white-overlay {
     background-color: rgba(255,255,255,0.65);;
 }
 
+.my-projects h2 {
+    padding: 20px 0;
+}
 
+/** EDIT PURPLE IMAGES AND DISPLAY NONE WHEN HOVERED**/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.p-img {
+    width: 100%;
+}
+
+.about-img {
+    margin: 15px 42px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-txt {
+    color: #fff;
+    margin-bottom: 34px;
+}
+
+.about-txt h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.about-txt p {
+    margin-bottom: 13px;
+}
+
+.social-media-contact img {
+    height: 20px;
+}
+
+.contact, .social-media-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /** END MAIN STYLES **/
 
@@ -121,6 +162,7 @@ footer .container {
 
 .copyright-txt {
     color: #fff;
+    font-size: 8px;
 }
 
 /** END FOOTER STYLES **/
