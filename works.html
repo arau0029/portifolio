@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
     <header class="white-overlay">
@@ -33,15 +34,15 @@
     </header>
     <main class="white-overlay">
         <div class="container">
-            <section class="my-works">
-                <div class="item1"><img src="images/branding-glaucio.jpg" alt="logo for Glaucio Stenio"></div>
-                <div class="item2"><img src="images/poster-cover.jpg" alt="genshin poster"></div>
-                <div class="item3"><img src="images/toronto-cover.jpg" alt="toronto cupcake logo with pink background"></div>
-                <div class="item4"><img src="images/avatar-cover.jpg" alt="fox floating above a lake avatar icon"></div>
-                <div class="item5"><img src="images/hutao-poster.jpg" alt="hu tao poster"></div>
+            <section class="my-works main-carousel" data-flickity='{ "cellAlign": "center", "contain": false, "pageDots": false, "prevNextButtons": false }'>
+                <div class="carousel-cell item1"><img src="images/branding-glaucio.jpg" alt="logo for Glaucio Stenio"></div>
+                <div class="carousel-cell item2"><img src="images/poster-cover.jpg" alt="genshin poster"></div>
+                <div class="carousel-cell item3"><img src="images/toronto-cover.jpg" alt="toronto cupcake logo with pink background"></div>
+                <div class="carousel-cell item4"><img src="images/avatar-cover.jpg" alt="fox floating above a lake avatar icon"></div>
+                <div class="carousel-cell item5"><img src="images/hutao-poster.jpg" alt="hu tao poster"></div>
             </section>
             <section class="work-with-me">
-                <h3 class="wwm-h">Enjoyed my work?</h3>
+                <h3 class="wwm-h uppercase">Enjoyed my work?</h3>
                 <p class="wwm-a"><a href="info.html">Let's work together.</a></p>
             </section>
         </div>
@@ -117,5 +118,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
