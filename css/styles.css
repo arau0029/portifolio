@@ -342,11 +342,14 @@ footer .container {
     
     .work-with-me {
         padding: 70px 0 70px 0;
+    }
+    
+    .tablet-wwm {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .tablet-wwm-a {
         font-size: 15px;
         margin-top: 0;
@@ -380,7 +383,6 @@ footer .container {
 
     }
 
-
       /**                               /
      /         DESKTOP STYLE           /
     /                               **/
@@ -388,108 +390,124 @@ footer .container {
 @media screen and (min-width:920px) {
 
     .container {
-        margin: 0 15px;
+        margin: 0 50px;
     }
     
     h1, h2 {
-        font-size: 25px;
+        font-size: 35px;
     }
     
     h3 {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .nav-ul li {
-        padding: 0 22px;
-        font-size: 13px;
+        padding: 0 33px;
+        font-size: 20px;
     }
 
     .nav-container {
-        padding: 15px 0;
+        padding: 25px 0;
     }
+
     .logo a {
-        font-size: 15px;
+        font-size: 28px;
     }
     
     .header-h1 {
-        font-size: 30px;
-        margin-bottom: 34px;
+        font-size: 60px;
+        margin-bottom: 55px;
     }
     
     p {
-        font-size: 13px;
+        font-size: 18px;
         line-height: 1.2em;
     }
-    /** END HEADER STYLES **/  
+
     .container-2 {
-        margin: 0 36px;
+        margin: 0 140px;
     }
     
     .header-txt {
-        padding: 165px 0 170px 0;
+        padding: 15% 0 20% 0;
     }
+    
+    /** END HEADER STYLES **/  
 
     .my-projects h2 {
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     .cover {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
+        margin-right: 23px;
+    }
+
+    .three {
+        margin-right: 0;
     }
     
     .more {
-        font-size: 13px;
-        padding: 30px 0 37px 0;
+        font-size: 18px;
+        padding: 40px 0 55px 0;
     }
     
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .about-img {
-        margin: 15px 42px;
+        margin: 40px 60px 60px 0;
     }
 
     .about-txt {
-        margin-bottom: 34px;
+        margin: 0 0 34px 0;
+        align-self: center;
     }
     
     .about-txt h2 {
-        margin: 10px 0 20px 0;
+        margin: 0 0 40px 0;
+        text-align: left;
     }
     
     .about-txt p {
-        margin-bottom: 13px;
+        margin-bottom: 18px;
     }
     
     .social-media-contact img {
-        height: 20px;
+        height: 25px;
     }
     
     .contact {
-       padding: 50px 0;
-    }
-
-    .contact h2 {
-        margin-right: 30px;
+       padding: 100px 0;
     }
     
     .email {
-        margin-bottom: 28px;
-        font-size: 11px;
+        margin-bottom: 47px;
+        font-size: 18px;
     }
     
     .work-with-me {
-        padding: 56px 0 110px 0;
+        padding: 80px 0 80px 0;
     }
     
     .wwm-a {
-        font-size: 27px;
-        margin-top: 52px;
+        font-size: 60px;
+    }
+
+    .tablet-wwm-a {
+        font-size: 18px;
+        margin-top: 0;
     }
     
     .my-works {
-        padding-top: 60px;
+        padding-top: 20px;
     }
     
     .carousel-cell {
-        width: 80%;
+        width: 30%;
         margin-right: 10px;
     }
     .cover:hover img.img-hover {
@@ -498,19 +516,19 @@ footer .container {
     /** END MAIN STYLES **/
 
     footer {
-        padding: 9px 0;
+        padding: 15px 0;
     }
     
     .social-media {
-        height: 10px;
+        height: 15px;
     }
     
     .social-media svg {
-        padding-right: 25px;
+        padding-right: 50px;
     }
     
     .copyright-txt {
-        font-size: 8px;
+        font-size: 14px;
     }
 
     /** END FOOTER STYLES **/
