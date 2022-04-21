@@ -70,6 +70,7 @@ nav ul .works {
 
 p {
     font-size: 13px;
+    line-height: 1.2em;
 }
 
 
@@ -130,10 +131,22 @@ p {
     height: 20px;
 }
 
+.contact {
+   padding: 50px 0;
+}
+
 .contact, .social-media-contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.contact h2 {
+    align-self: center;
+}
+
+.email {
+    margin-bottom: 28px;
 }
 
 /** END MAIN STYLES **/
