@@ -179,7 +179,7 @@ p {
 }
 
 .email {
-    margin-bottom: 28px;
+    /*margin-bottom: 28px;*/
     font-size: 11px;
 }
 
@@ -337,6 +337,7 @@ footer .container {
     }
     
     .email {
+        margin-top: 0px;
         font-size: 15px;
     }
     
@@ -485,7 +486,8 @@ footer .container {
     }
     
     .email {
-        margin-bottom: 47px;
+        /*margin-bottom: 47px;*/
+        margin-top: 0px;
         font-size: 18px;
     }
     
